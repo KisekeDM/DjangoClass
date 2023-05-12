@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Form</title>
+{% load static %}
+     <link rel="stylesheet" href="{% static 'css/emp.css' %}">
+</head>
+<body>
+
+<form  method="post">
+    <fieldset>
+    {% csrf_token %}
+     {{ form.as_p }}
+
+    <button type="submit">Save</button>
+
+</fieldset>
+</form>
+
+</body>
+</html>

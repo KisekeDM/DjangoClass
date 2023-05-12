@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Images</title>
+    <style>
+.images{
+background-color: white;
+            display: flex;
+           padding: 20px;
+            margin: 20px;
+
+}
+.links{
+    border: 2px solid black;
+    background-color: darksalmon;
+    color: crimson;
+
+}
+    </style>
+
+    {% load static %}
+
+</head>
+<body>
+
+<div class="links">
+    <a href="{% url 'hello' %}">Visit Hello page</a><br>
+    <a href="{% url 'name' %}">Name</a><br>
+    <a href="{% url 'even' %}">Evenodd</a><br>
+    <a href="{% url 'index' %}">Index</a><br>
+    <a href="{% url 'table' %}">Tables</a><br>
+    <a href="{% url 'employee' %}">Employee</a><br>
+    <a href="{% url 'vary' %}">Vary</a><br>
+    <a href="{% url 'ass' %}">Assignment</a><br>
+    <a href="{% url 'img' %}">Images</a>
+</div>
+
+
+<div class="images">
+
+<img src="{% static 'images/image.jpeg' %}" alt="">
+    
+    <p style="font-weight: bold; font-size: 40px">Spring is the season when life's alive in everything</p>
+</div>
+</body>
+</html>

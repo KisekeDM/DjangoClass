@@ -1,0 +1,10 @@
+h1{
+    color: dodgerblue;
+    font-family: Chandas;
+    font-style: italic;
+}
+body{
+    background-image: url('/static/images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

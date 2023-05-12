@@ -1,0 +1,38 @@
+form{
+    background-color: burlywood;
+
+margin: 10px;
+
+
+
+     box-shadow: red;
+    padding: 40px;
+}
+
+
+    label{
+      float: left;
+width: 100px;
+      text-align: left;
+    }
+
+main{
+    border: 1px solid mediumblue;
+  padding: 50px;
+
+}
+
+
+input{
+
+    color: black;
+    background-color: burlywood;
+
+
+
+}
+legend{
+    font-weight: bold;
+    font-size: 2px;
+}
+
